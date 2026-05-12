@@ -1,0 +1,95 @@
+/* Center Container */
+body {
+  display: flex;               
+  justify-content: center;       
+  align-items: center;           
+  height: 100vh;            
+  margin: 0;                     
+  background-color: #f0f0f0;     
+}
+/* Background styling */
+.form-container {
+  background: #ffffff;          
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 90%;                    
+  max-width: 400px;              
+  box-sizing: border-box;
+}
+
+/* Logo centering */
+.form-container .logo {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100px;
+}
+
+/* Input and label styling */
+.form-container label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+/* Radio button group */
+.status {
+  margin: 15px 0;
+}
+.status label {
+  margin-right: 15px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.submit-btn {
+    background-color: #004aad;
+    font-family: Arial, sans-serif;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.reset-btn {
+    background-color: #dbe0e6;
+    font-family: Arial, sans-serif;
+    color: #333;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/*Enrollment Form*/
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.logo{
+  border-radius: 80px;
+  box-shadow: #070707 0px 1px 5px;
+}
+/* First, Last, M.I */
+.name-row {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
